@@ -1,14 +1,53 @@
-body {
-  background: #f49242;
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  /*margin-left:800px;
+  margin-right: 800px;*/
   font-family: 'Ubuntu Condensed', sans-serif;
+  color:white !important;
+  background-color:rgba(0, 0, 0, 0.5) !important;
+
 
 }
 
-header{
-  background: #582A72;
+a {
+
+color:black !important;
 }
 
-h1{
+li {
+  list-style-type: none;
+}
 
-  color:#226666
+a:visited, a:default {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+html {
+  background: url(images/jazz.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.music-table{
+  margin: 0 auto;
+  display: inline-block;
+}
+
+music {
+  background: url(images/jazz.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
 }
